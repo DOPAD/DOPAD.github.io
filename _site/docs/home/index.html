@@ -15,15 +15,15 @@
 <meta name="generator" content="Jekyll v4.1.0" />
 <meta property="og:title" content="Description" />
 <meta property="og:locale" content="en_US" />
-<meta name="description" content="Add some description and example images." />
-<meta property="og:description" content="Add some description and example images." />
+<meta name="description" content="Data origin" />
+<meta property="og:description" content="Data origin" />
 <link rel="canonical" href="http://localhost:4000/docs/home/" />
 <meta property="og:url" content="http://localhost:4000/docs/home/" />
 <meta property="og:site_name" content="DOPAD" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2020-10-03T16:11:41+08:00" />
+<meta property="article:published_time" content="2020-10-23T19:01:32+08:00" />
 <script type="application/ld+json">
-{"url":"http://localhost:4000/docs/home/","headline":"Description","dateModified":"2020-10-03T16:11:41+08:00","description":"Add some description and example images.","datePublished":"2020-10-03T16:11:41+08:00","@type":"WebPage","@context":"https://schema.org"}</script>
+{"url":"http://localhost:4000/docs/home/","headline":"Description","dateModified":"2020-10-23T19:01:32+08:00","description":"Data origin","datePublished":"2020-10-23T19:01:32+08:00","@type":"WebPage","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -97,10 +97,6 @@
           
             
             
-            <a class="list-group-item " href="/docs/devkit/">Development Kit</a>
-          
-            
-            
             <a class="list-group-item " href="/docs/download/">Data Download</a>
           
             
@@ -121,7 +117,15 @@
 
         <div class="col-md-8">
             <h1>Description</h1>
-            <div id="markdown-content-container"><p>Add some description and example images.</p>
+            <div id="markdown-content-container"><h3 id="data-origin">Data origin</h3>
+
+<p>The original large TEM images are from several experimental situations. Three types of NPs were used: small iron oxide NP (≈ 11 nm diameter), a large silica NP (≈ 50 nm diameter) and a smaller NP (≈ 14 nm) mixed with a variety of matrices.</p>
+
+<h3 id="data-preprocessing">Data Preprocessing</h3>
+
+<p>The large TEM images are cut into many small square images, each containing a few particles (less than 30). In each cutting, the dimension of small images, N × N pixels, are set by randomly chosing an integer N from [75, 375]. All the small images are then rescaled to 416 × 416 pixels such that particles appear to have different sizes across different samples. With this protocol, we arrive at a dataset of 279,057 labeled square images.</p>
+
+<p><img src="./figures/train_img.png" alt="Training Image Examples" /></p>
 </div>
             <div style="clear:both;">
               <p class="text-center">

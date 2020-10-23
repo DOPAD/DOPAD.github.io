@@ -21,9 +21,9 @@
 <meta property="og:url" content="http://localhost:4000/docs/annotation/" />
 <meta property="og:site_name" content="DOPAD" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2020-10-03T16:11:41+08:00" />
+<meta property="article:published_time" content="2020-10-23T19:01:32+08:00" />
 <script type="application/ld+json">
-{"url":"http://localhost:4000/docs/annotation/","headline":"Annotation","dateModified":"2020-10-03T16:11:41+08:00","description":"Annotation Format","datePublished":"2020-10-03T16:11:41+08:00","@type":"WebPage","@context":"https://schema.org"}</script>
+{"url":"http://localhost:4000/docs/annotation/","headline":"Annotation","dateModified":"2020-10-23T19:01:32+08:00","description":"Annotation Format","datePublished":"2020-10-23T19:01:32+08:00","@type":"WebPage","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -97,10 +97,6 @@
           
             
             
-            <a class="list-group-item " href="/docs/devkit/">Development Kit</a>
-          
-            
-            
             <a class="list-group-item " href="/docs/download/">Data Download</a>
           
             
@@ -123,9 +119,13 @@
             <h1>Annotation</h1>
             <div id="markdown-content-container"><h3 id="annotation-format">Annotation Format</h3>
 
-<p>Descriptions of annotation</p>
+<p>The labeled dataset is stored in <code class="language-plaintext highlighter-rouge">label.txt</code>, in which the labels are arranged as follows:</p>
 
-<h3 id="example">Example</h3>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Path_1 Xmin_1,Ymin_1,Xmax_1,Ymax_1 ... Xmin_n1,Ymin_n1,Xmax_n1,Ymax_n1
+Path_2 Xmin_1,Ymin_1,Xmax_1,Ymax_1 ... Xmin_n2,Ymin_n2,Xmax_n2,Ymax_n2
+...
+Path_m Xmin_1,Ymin_1,Xmax_1,Ymax_1 ... Xmin_nm,Ymin_nm,Xmax_nm,Ymax_nm
+</code></pre></div></div>
 
 </div>
             <div style="clear:both;">
@@ -163,7 +163,7 @@
         
         
         <li class="next">
-          <a href="/docs/devkit/">
+          <a href="/docs/download/">
             Next <span aria-hidden="true">&rarr;</span>
           </a>
         </li>
