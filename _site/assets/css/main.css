@@ -2822,7 +2822,7 @@ body { padding-top: 87px; margin-bottom: 46px; }
 
 .header-container { background-color: black; background: url("../img/bg.jpg") no-repeat 50% 0; color: #fff; background-size: cover; background-position: center 36%; margin-top: -37px; }
 
-.header-container h1 { color: #fff; }
+.header-container h1 { color: #000; }
 
 .navbar-container { font-size: 16px; }
 

@@ -12,4 +12,4 @@ The original large TEM images are from several experimental situations. Three ty
 
 The large TEM images are cut into many small square images, each containing a few particles (less than 30). In each cutting, the dimension of small images, N × N pixels, are set by randomly chosing an integer N from [75, 375]. All the small images are then rescaled to 416 × 416 pixels such that particles appear to have different sizes across different samples. With this protocol, we arrive at a dataset of 279,057 labeled square images.
 
-![Training Image Examples](./figures/train_img.png)
+![Training Image Examples](https://dopad.github.io/assets/img/train_img.png)
