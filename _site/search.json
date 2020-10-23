@@ -1,0 +1,54 @@
+[
+
+  
+    
+    
+    {
+      "title": "Description",
+      "url": "/docs/home/"
+    },
+  
+    
+    
+    {
+      "title": "Annotation",
+      "url": "/docs/annotation/"
+    },
+  
+    
+    
+    {
+      "title": "Development Kit",
+      "url": "/docs/devkit/"
+    },
+  
+    
+    
+    {
+      "title": "Data Download",
+      "url": "/docs/download/"
+    },
+  
+    
+    
+    {
+      "title": "Trained Model",
+      "url": "/docs/model/"
+    },
+  
+    
+    
+    {
+      "title": "Help Us",
+      "url": "/docs/help/"
+    },
+  
+
+
+  
+  {
+  "title": "Welcome to Jekyll!",
+  "url": "/blog/2020/06/18/welcome-to-jekyll/"
+  }
+  
+]
