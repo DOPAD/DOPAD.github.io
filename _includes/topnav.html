@@ -13,8 +13,12 @@
         </div>
         <div id="navbar" class="collapse navbar-collapse">
             <ul class="nav navbar-nav">
-                <li {% if page.sectionid=='docs' %} class="active" {% endif %}><a href="{{ "/docs/home/" | relative_url }}">Docs</a></li>
-                <li {% if page.sectionid=='blog' %} class="active" {% endif %}><a href="{{ site.posts.first.url | relative_url }}">News</a></li>
+                <li {% if page.sectionid=='docs' %} class="active" {% endif %}><a href="{{ "/docs/home/" | relative_url }}">Description</a></li>
+                 <li {% if page.sectionid=='docs' %} class="active" {% endif %}><a href="{{ "/docs/annotation/" | relative_url }}">Annotation</a></li>
+                 <li {% if page.sectionid=='docs' %} class="active" {% endif %}><a href="{{ "/docs/download/" | relative_url }}">Download</a></li>
+                 <li {% if page.sectionid=='docs' %} class="active" {% endif %}><a href="{{ "/docs/model/" | relative_url }}">Model</a></li>
+                 <li {% if page.sectionid=='docs' %} class="active" {% endif %}><a href="{{ "/docs/help/" | relative_url }}">Help Us</a></li>
+                <!-- <li {% if page.sectionid=='blog' %} class="active" {% endif %}><a href="{{ site.posts.first.url | relative_url }}">News</a></li> -->
             </ul>
             <div class="navbar-right">
                 <form class="navbar-form navbar-left">
